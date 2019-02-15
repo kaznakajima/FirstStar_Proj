@@ -9,11 +9,19 @@
 /**
  * 
  */
-
 UCLASS()
 class FIRSTSTAR_API AEnemyPawn : public ADefaultPawn
 {
 	GENERATED_BODY()
 
+	// コンストラクタ
 	AEnemyPawn(const FObjectInitializer& ObjectInitializer);
+
+public:
+	// インスタンス
+	class UMyFloatingPawnMovement* movement;
+
+	// 自身のFloatingPawnMovementを返す
+	UFUNCTION(BlueprintCallable)
+		class UMyFloatingPawnMovement* GetFloatingMovement() const;
 };
