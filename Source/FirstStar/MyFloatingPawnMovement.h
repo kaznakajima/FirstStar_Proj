@@ -9,7 +9,7 @@
 /**
  * 
  */
-UCLASS()
+UCLASS(ClassGroup = Movement, meta = (BlueprintSpawnableComponent))
 class FIRSTSTAR_API UMyFloatingPawnMovement : public UFloatingPawnMovement
 {
 	GENERATED_BODY()
