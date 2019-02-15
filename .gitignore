@@ -75,3 +75,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# パーティクル関連
+Content/VFX_Toolkit_V1/*
