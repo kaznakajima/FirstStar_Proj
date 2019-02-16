@@ -25,3 +25,14 @@ public:
 	UFUNCTION(BlueprintCallable)
 		class UMyFloatingPawnMovement* GetFloatingMovement() const;
 };
+
+// “G‚ÌŽí—Þ
+UENUM(BlueprintType)
+enum class EType : uint8
+{
+	ET_RED         UMETA(DisplayName = "RED"),
+	ET_ORANGE  UMETA(DisplayName = "ORANGE"),
+	ET_YELLOW  UMETA(DisplayName = "YELLOW"),
+	ET_WHITE    UMETA(DisplayName = "WHITE"),
+	ET_BLUE      UMETA(DisplayName = "BLUE")
+};
