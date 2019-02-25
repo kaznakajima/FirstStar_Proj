@@ -15,6 +15,21 @@ public:
 	// Sets default values for this character's properties
 	ABossCharacter();
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "BossParam")
+	float MaxHP;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "BossParam")
+	float CurrentHP;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "BossParam")
+	float ShortRangePower;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "BossParam")
+	float LongRangePower;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "BossParam")
+	float MoveSpeed;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

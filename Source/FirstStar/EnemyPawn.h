@@ -23,7 +23,7 @@ public:
 
 	// ©g‚ÌFloatingPawnMovement‚ğ•Ô‚·
 	UFUNCTION(BlueprintCallable)
-		class UMyFloatingPawnMovement* GetFloatingMovement() const;
+	class UMyFloatingPawnMovement* GetFloatingMovement() const;
 };
 
 // “G‚Ìí—Ş
