@@ -78,3 +78,6 @@ DerivedDataCache/*
 
 # パーティクル関連
 Content/VFX_Toolkit_V1/*
+
+# ボスのモデル(プロト)
+Content/ParagonRampage/*
