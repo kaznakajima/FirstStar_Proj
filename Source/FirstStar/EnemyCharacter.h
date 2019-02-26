@@ -15,6 +15,21 @@ public:
 	// Sets default values for this character's properties
 	AEnemyCharacter();
 
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "EnemyParam")
+	float MaxHP;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "EnemyParam")
+	float CurrentHP;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "EnemyParam")
+	float ShortRangePower;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "EnemyParam")
+	float LongRangePower;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "EnemyParam")
+	float MoveSpeed;
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
