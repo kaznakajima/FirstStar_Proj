@@ -48,5 +48,6 @@ UENUM(BlueprintType)
 enum class EAttackType : uint8
 {
 	AT_SHORTRANGE UMETA(DisplayName = "ShortRange"),
-	AT_RONGRANGE   UMETA(DisplayName = "LongRange")
+	AT_RONGRANGE   UMETA(DisplayName = "LongRange"),
+	AT_BREAK             UMETA(DisplayName = "Break")
 };
